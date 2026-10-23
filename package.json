@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:turnbull": "vite build --config turnbull-landscaping/vite.config.ts",
     "preview": "vite preview",
     "lint": "tsc --noEmit",
     "model": "node scripts/build-model.mjs"
